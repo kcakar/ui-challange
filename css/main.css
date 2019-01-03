@@ -241,6 +241,12 @@ main {
                 @media only screen and (max-width: 775px) {
                   .folder-view .folder-view__list ul li .content .content__main .content__secondary .info {
                     width: 100%; } }
+                @media only screen and (max-width: 350px) {
+                  .folder-view .folder-view__list ul li .content .content__main .content__secondary .info {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    width: 100px; } }
           .folder-view .folder-view__list ul li .content .content__buttons {
             flex-grow: 1;
             display: flex;

@@ -330,6 +330,12 @@ main{
                                 @media only screen and (max-width: 775px) {
                                     width:100%;
                                 }
+                                @media only screen and (max-width: 350px) {
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    width:100px;
+                                }
                             }
                         }
                     }

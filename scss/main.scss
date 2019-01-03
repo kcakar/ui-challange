@@ -280,8 +280,10 @@ main{
 
 
                     .content__main{
-                        width:300px;
-
+                        flex-grow: 1;
+                        display: flex;
+                        align-items: center;
+                        height: 100%;
                         .icon
                         {
                             @media only screen and (max-width: 555px) {
@@ -298,22 +300,41 @@ main{
                             @media only screen and (max-width: 555px) {
                                 display: none;
                             }
-                            
                         }
                         span{
                             font-weight: 600;
                             color:#666666;
                             flex-grow: 1;
                         }
-                    }
 
-                    .content__secondary{
-                        .info{
-                            font-weight:600;
-                            color:#adadad;
-                            font-size:12px;
+                        .content__secondary{
+                            display: flex;
+                            align-items: center;
+                            height: 100%;
+                            @media only screen and (max-width: 775px) {
+                                flex-wrap: wrap;
+                            }
+
+                            .name{
+                                display: block;
+                                width:150px;
+                                height: 20px;
+                            }
+                            .info{
+                                flex-grow: 1;
+                                display: block;
+                                font-weight:600;
+                                color:#adadad;
+                                font-size:12px;
+                                height: 15px;
+                                @media only screen and (max-width: 775px) {
+                                    width:100%;
+                                }
+                            }
                         }
                     }
+
+
                     
                     .content__buttons{
                         flex-grow:1;
@@ -323,10 +344,18 @@ main{
                     }
                 }
             }
-            & li > ul{
-                .content__main{
-                    input{
-                        margin-left:70px;
+            & li > ul li{
+                .content{
+                    .content__main{
+                        input{
+                            margin-left:60px;
+                        }
+    
+                        .content__secondary{
+                            .name{
+                                width:80px;
+                            }
+                        }
                     }
                 }
             }

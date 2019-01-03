@@ -1,3 +1,14 @@
+#Commets from the developer
+
+Hello,
+
+I was not sure about what font was used for the icons so I have used font awesome instead.
+
+I tried to use no frameworks at all.
+
+Thanks,
+Kerem
+
 # ui-challange
 UI code challenge.
 

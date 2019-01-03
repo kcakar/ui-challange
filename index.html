@@ -7,10 +7,222 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
 </head>
 
 <body>
-  <p>Hello world!</p>
+  <header>
+    <a href="/" class="brand">
+      <img src="images/logo.svg">
+    </a>
+    <nav>
+      <ul>
+        <li class="hotline"><a href="/">Kostenlose Service-Hotline</a></li>
+        <li class="phone"><a href="/"><img src="images/phone.svg"><span class="number">0800 500 80 02</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Vielen Dank für Ihr Interesse <span class="hide-small">an&nbsp;der&nbsp;von&nbsp;uns angebotenen Immobilie.</span></h2>
+      <p>Im Folgenden finden Sie&nbsp;alle verfügbaren Unterlagen zum Download.</p>
+    </section>
+    <section class="folder-view">
+      <div class="folder-view__selection">
+        <img src="images/house.jpg">
+        <div class="selection__info">
+          <div class="info-group">
+              <span class="label">OUR ID</span>
+              <span class="value">123456789</span>
+          </div>
+          <div class="info-group">
+              <span class="label">ADDRESS</span>
+              <span class="value">Finkenweg 81a, 123457 Berlin</span>
+          </div>
+          <div class="info-group">
+              <span class="label">PRICE</span>
+              <span class="value">2130.000 €</span>
+          </div>
+          <div class="info-group">
+              <span class="label">TOTAL FLOR SPACE</span>
+              <span class="value">254 m<sup>2</sup></span>
+          </div>
+          <div class="info-group">
+              <span class="label">ROOMS</span>
+              <span class="value">7</span>
+          </div>
+        </div>
+        <div class="button-download">
+          <button>DOWNLOAD EXPOSE</button>
+        </div>
+      </div>
+      <div class="folder-view__list">
+        <div class="count">
+          <input type="checkbox">
+          <span>0 / 5</span>
+        </div>
+        <ul>
+          <li class="open">
+              <div class="content">
+                  <div class="content__main">
+                      <input type="checkbox">
+                      <i class="icon fas fa-chevron-down"></i>
+                      <i class="icon fas fa-folder-open"></i>
+                      <span>Images</span>
+                  </div>
+                  <div class="content__buttons">
+                      <i class="icon fas fa-download"></i>
+                  </div>
+              </div>
+              <ul>
+                  <li>
+                      <div class="content">
+                          <div class="content__main">
+                              <input type="checkbox">
+                              <i class="icon fas fa-chevron-down"></i>
+                              <i class="icon fas fa-folder-open"></i>
+                              <span>Images</span>
+                          </div>
+                          <div class="content__secondary">
+                              <span class="info">Images</span>
+                          </div>
+                          <div class="content__buttons">
+                              <i class="icon fas fa-eye"></i>
+                              <i class="icon fas fa-download"></i>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="content">
+                          <div class="content__main">
+                              <input type="checkbox">
+                              <i class="icon fas fa-chevron-down"></i>
+                              <i class="icon fas fa-folder-open"></i>
+                              <span>Images</span>
+                          </div>
+                          <div class="content__secondary">
+                              <span class="info">Images</span>
+                          </div>
+                          <div class="content__buttons">
+                              <i class="icon fas fa-eye"></i>
+                              <i class="icon fas fa-download"></i>
+                          </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="content">
+                          <div class="content__main">
+                              <input type="checkbox">
+                              <i class="icon fas fa-chevron-down"></i>
+                              <i class="icon fas fa-folder-open"></i>
+                              <span>Images</span>
+                          </div>
+                          <div class="content__secondary">
+                              <span class="info">Images</span>
+                          </div>
+                          <div class="content__buttons">
+                              <i class="icon fas fa-eye"></i>
+                              <i class="icon fas fa-download"></i>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <div class="content">
+                  <div class="content__main">
+                      <input type="checkbox">
+                      <i class="icon fas fa-chevron-down"></i>
+                      <i class="icon fas fa-file-pdf"></i>
+                      <span>Test Street 123</span>
+                  </div>
+                  <div class="content__secondary">
+                      <span class="info">Building Plan, Images, Ground Plot, Entry in the land register</span>
+                  </div>
+                  <div class="content__buttons">
+                      <i class="icon fas fa-eye"></i>
+                      <i class="icon fas fa-download"></i>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="content">
+                  <div class="content__main">
+                      <input type="checkbox">
+                      <i class="icon fas fa-chevron-down"></i>
+                      <i class="icon fas fa-file-alt"></i>
+                      <span>Energy Cerfiticate</span>
+                  </div>
+                  <div class="content__secondary">
+                      <span class="info">Energy Cerfiticate</span>
+                  </div>
+                  <div class="content__buttons">
+                      <i class="icon fas fa-eye"></i>
+                      <i class="icon fas fa-download"></i>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="content">
+                  <div class="content__main">
+                      <input type="checkbox">
+                      <i class="icon fas fa-chevron-down"></i>
+                      <i class="icon fas fa-file-alt"></i>
+                      <span>OA-Paper</span>
+                  </div>
+                  <div class="content__secondary">
+                      <span class="info">OA-Paper</span>
+                  </div>
+                  <div class="content__buttons">
+                      <i class="icon fas fa-eye"></i>
+                      <i class="icon fas fa-download"></i>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="content">
+                  <div class="content__main">
+                      <input type="checkbox">
+                      <i class="icon fas fa-chevron-down"></i>
+                      <i class="icon fas fa-file-alt"></i>
+                      <span>Innenraum</span>
+                  </div>
+                  <div class="content__secondary">
+                      <span class="info">Innenraum</span>
+                  </div>
+                  <div class="content__buttons">
+                      <i class="icon fas fa-eye"></i>
+                      <i class="icon fas fa-download"></i>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="content">
+                  <div class="content__main">
+                      <input type="checkbox">
+                      <i class="icon fas fa-chevron-down"></i>
+                      <i class="icon fas fa-file-image"></i>
+                      <span>Fotosession</span>
+                  </div>
+                  <div class="content__secondary">
+                      <span class="info">Fotosession</span>
+                  </div>
+                  <div class="content__buttons">
+                      <i class="icon fas fa-eye"></i>
+                      <i class="icon fas fa-download"></i>
+                  </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
   <script src="./index.js"></script>
 </body>

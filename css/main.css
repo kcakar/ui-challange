@@ -1,0 +1,230 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+h2 {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-weight: 100; }
+
+p {
+  color: #666; }
+
+button {
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 10px 0;
+  padding: 0;
+  height: 50px;
+  border-width: 0;
+  text-decoration: none;
+  line-height: 50px; }
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 2px solid #8a8a8ac5;
+  border-radius: 1px;
+  width: 15px;
+  height: 15px;
+  margin: 0; }
+
+@media only screen and (max-width: 555px) {
+  .hide-small {
+    display: none; } }
+
+header {
+  border-bottom: solid #f7f7f7 2px;
+  padding: 10px 10px 10px 20px; }
+  header .brand img {
+    width: 120px; }
+  header nav {
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px; }
+    header nav ul {
+      margin: 0; }
+    header nav li {
+      display: inline-block;
+      margin-left: 10px; }
+    header nav .hotline {
+      color: #b9b9ba; }
+      @media only screen and (max-width: 775px) {
+        header nav .hotline {
+          display: none; } }
+    header nav .phone {
+      text-decoration: underline; }
+      header nav .phone img {
+        width: 15px;
+        display: block;
+        float: left;
+        margin-right: 5px; }
+        @media only screen and (max-width: 555px) {
+          header nav .phone img {
+            width: 25px; } }
+      @media only screen and (max-width: 555px) {
+        header nav .phone .number {
+          display: none; } }
+
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto; }
+  main .intro {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center; }
+    @media only screen and (max-width: 555px) {
+      main .intro {
+        max-width: 190px; } }
+    main .intro p {
+      margin: 0 auto; }
+      @media only screen and (max-width: 775px) {
+        main .intro p {
+          max-width: 300px; } }
+
+.folder-view {
+  border: 2px solid #ececec; }
+  @media only screen and (max-width: 775px) {
+    .folder-view {
+      border: none; } }
+  .folder-view .folder-view__selection {
+    padding: 25px;
+    display: flex;
+    flex-direction: row; }
+    @media only screen and (max-width: 775px) {
+      .folder-view .folder-view__selection {
+        flex-wrap: wrap; } }
+    @media only screen and (max-width: 555px) {
+      .folder-view .folder-view__selection {
+        margin: 0 auto;
+        max-width: 252px; } }
+    .folder-view .folder-view__selection img {
+      width: 150px;
+      height: 150px;
+      border: 1px solid #ececec; }
+      @media only screen and (max-width: 775px) {
+        .folder-view .folder-view__selection img {
+          width: 250px;
+          height: 250px; } }
+    .folder-view .folder-view__selection .selection__info {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 5px 10px 5px 10px; }
+      @media only screen and (max-width: 555px) {
+        .folder-view .folder-view__selection .selection__info {
+          width: 100%; } }
+      @media only screen and (max-width: 775px) {
+        .folder-view .folder-view__selection .selection__info {
+          padding-left: 30px;
+          padding-top: 0; } }
+      @media only screen and (max-width: 555px) {
+        .folder-view .folder-view__selection .selection__info {
+          padding-left: 0;
+          padding-top: 20px; } }
+      .folder-view .folder-view__selection .selection__info .info-group {
+        display: flex; }
+        @media only screen and (max-width: 775px) {
+          .folder-view .folder-view__selection .selection__info .info-group {
+            justify-content: space-between;
+            flex-wrap: wrap; } }
+        .folder-view .folder-view__selection .selection__info .info-group .label {
+          font-size: 12px;
+          font-weight: 600;
+          color: #bfbfbf;
+          width: 125px; }
+          @media only screen and (max-width: 775px) {
+            .folder-view .folder-view__selection .selection__info .info-group .label {
+              width: 100%; } }
+        .folder-view .folder-view__selection .selection__info .info-group .value {
+          font-size: 12px;
+          font-weight: 600; }
+          @media only screen and (max-width: 775px) {
+            .folder-view .folder-view__selection .selection__info .info-group .value {
+              width: 100%; } }
+          @media only screen and (max-width: 555px) {
+            .folder-view .folder-view__selection .selection__info .info-group .value {
+              margin-bottom: 10px; } }
+    .folder-view .folder-view__selection .button-download button {
+      background-color: #feba00;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: inherit;
+      color: white;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-bottom: 2px solid #e9ab01; }
+      @media only screen and (max-width: 775px) {
+        .folder-view .folder-view__selection .button-download button {
+          width: 250px; } }
+  .folder-view .folder-view__list {
+    margin-top: 20px;
+    padding-top: 0px; }
+    .folder-view .folder-view__list .count {
+      display: flex;
+      padding: 0 25px 0 25px; }
+      .folder-view .folder-view__list .count input {
+        display: inline-block; }
+      .folder-view .folder-view__list .count span {
+        margin-left: 10px;
+        font-size: 12px;
+        color: #adadad; }
+    .folder-view .folder-view__list ul {
+      padding: 0;
+      margin: 20px 0 0 0;
+      width: 100%; }
+      .folder-view .folder-view__list ul li {
+        border-top: 2px solid #ececec; }
+        @media only screen and (max-width: 775px) {
+          .folder-view .folder-view__list ul li.open {
+            display: none; } }
+        .folder-view .folder-view__list ul li .content {
+          padding: 20px 25px 20px 25px;
+          display: flex;
+          align-items: center; }
+          .folder-view .folder-view__list ul li .content .icon {
+            font-size: 25px;
+            color: #adadad;
+            margin-right: 15px; }
+          .folder-view .folder-view__list ul li .content .content__main {
+            width: 300px; }
+            @media only screen and (max-width: 555px) {
+              .folder-view .folder-view__list ul li .content .content__main .icon {
+                display: none; } }
+            .folder-view .folder-view__list ul li .content .content__main input {
+              margin-right: 10px; }
+            .folder-view .folder-view__list ul li .content .content__main .icon.fa-chevron-down {
+              font-size: 13px; }
+              @media only screen and (max-width: 555px) {
+                .folder-view .folder-view__list ul li .content .content__main .icon.fa-chevron-down {
+                  display: none; } }
+            .folder-view .folder-view__list ul li .content .content__main span {
+              font-weight: 600;
+              color: #666666;
+              flex-grow: 1; }
+          .folder-view .folder-view__list ul li .content .content__secondary .info {
+            font-weight: 600;
+            color: #adadad;
+            font-size: 12px; }
+          .folder-view .folder-view__list ul li .content .content__buttons {
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-end;
+            height: 100%; }
+      .folder-view .folder-view__list ul li > ul .content__main input {
+        margin-left: 70px; }
